@@ -30,14 +30,12 @@ add_executable(project_tests ${SOURCE_FILES})
 include_directories(${GTEST_INCLUDE_DIRS})
 
 # module headers
-include_directories(${FOLDERDIVISION_HEADERS_DIR})
 include_directories(${FOLDERHELLO_HEADERS_DIR})
 
 # link modules, ... and googletest
 target_link_libraries(
     project_tests
     gtest
-    ModuleDivision
     ModuleHelloWorld
 )
 
