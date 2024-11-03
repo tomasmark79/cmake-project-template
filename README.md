@@ -3,6 +3,15 @@
 
 This template project was inspired by a vast number of projects encountered in the past. The goal is to keep it as simple as possible, using GTest.
 
+## dependencies
+
+git
+cmake >= 3.28
+
+## platform independent
+
+Created and tested on Linux, but may to work on any environment.
+
 ## usage
 
 ```bash
