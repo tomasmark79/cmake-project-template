@@ -20,7 +20,7 @@ if(NOT GTest_FOUND)
 endif()
 
 # add the source files
-set(SOURCE_FILES TestApp.cpp src/Tests.cpp)
+set(SOURCE_FILES TestApp.cpp Tests/Tests.cpp)
 
 # add the executable
 add_executable(cmake-project-tests ${SOURCE_FILES})

@@ -14,14 +14,14 @@ set(THIS_INSTALL_BIN_DIR ${CMAKE_INSTALL_PREFIX}/bin)
 set(THIS_INSTALL_LIB_DIR ${CMAKE_INSTALL_PREFIX}/lib)
 
 # paths to the headers - addme
-set(PROJECT_HEADERS_DIR ${PROJECT_SOURCE_DIR}/src)
-set(FOLDERHELLO_HEADERS_DIR ${PROJECT_SOURCE_DIR}/src/FolderHelloWorld)
+set(PROJECT_HEADERS_DIR ${PROJECT_SOURCE_DIR}/App)
+set(FOLDERHELLO_HEADERS_DIR ${PROJECT_SOURCE_DIR}/App/FolderHelloWorld)
 
 # include the headers - addme
 include_directories(${THIS_INSTALL_INCLUDE_DIR})
 
 # projects
-add_subdirectory(src)
-add_subdirectory(test)
+add_subdirectory(App)
+add_subdirectory(TestApp)
 
 
