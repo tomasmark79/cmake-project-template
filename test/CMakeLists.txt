@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.5)
 
-project(project_tests C CXX)
+project(project_tests)
 
 # Set policy CMP0135 to NEW
 if(POLICY CMP0135)
@@ -13,12 +13,14 @@ if(NOT GTest_FOUND)
     include(FetchContent)
     FetchContent_Declare(
       googletest
-      URL https://github.com/google/googletest/archive/release-1.11.0.zip
+      URL https://github.com/google/googletest/releases/download/v1.15.2/googletest-1.15.2.tar.gz
       DOWNLOAD_EXTRACT_TIMESTAMP true
     )
     FetchContent_MakeAvailable(googletest)
+    
 endif()
 
+#add_subdirectory(lib/googletest)
 
 # add the source files
 set(SOURCE_FILES test.cpp src/project_tests.cpp)
