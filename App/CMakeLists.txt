@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.28)
+# Copyright (c) 2024 Tomas Mark
 
-# set the Application name
 project(cmake-project-application)
 
 # add libraries

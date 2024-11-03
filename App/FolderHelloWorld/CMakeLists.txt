@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.28)
+# Copyright (c) 2024 Tomas Mark
 
-# Set the Linbrary name
+# Library project name
 project(HelloWorld)
 
 # Set the source files

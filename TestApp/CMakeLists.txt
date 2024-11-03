@@ -1,4 +1,6 @@
 cmake_minimum_required(VERSION 3.28)
+# Copyright (c) 2024 Tomas Mark
+
 project(cmake-project-tests)
 
 # Set policy CMP0135 to NEW
