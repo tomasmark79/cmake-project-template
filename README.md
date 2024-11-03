@@ -1,27 +1,18 @@
-
 ## CMake C++ Project Template
 
-This template project was inspired by a vast number of projects encountered in the past. The goal is to keep it as simple as possible, using GTest.
+This project template was inspired by various projects encountered in the past. The goal is to keep it as simple as possible while using GTest for testing.
 
-## dependencies
+## Dependencies
 
-```
-GTest is downloaded automaticaly via CMake FetchContent
-```
+- GTest is downloaded automatically via CMake's FetchContent.
+- cmake
+- git
 
-```
-cmake
-```
+## Platform Independence
 
-```
-git
-```
+Created and tested on Linux, but it may work in other environments.
 
-## platform independent
-
-Created and tested on Linux, but may to work on any environment.
-
-## usage
+## Usage
 
 ```bash
 git clone https://github.com/tomasmark79/cmake-project-template.git
@@ -34,61 +25,61 @@ cd ../install/
 ls -la
 ```
 
-## structure of project template
+## Project Template Structure
 
-App
+**App**
 
 ```txt
 ./App:
 App.cpp  App.hpp  CMakeLists.txt  FolderHelloWorld
 ```
 
-Library
+**Library**
 
 ```txt
 App/FolderHelloWorld/:
 CMakeLists.txt  HelloWorld.cpp  HelloWorld.hpp
 ```
 
-Created Binaries
+**Created Binaries**
 
 ```txt
 ./build:
 ```
 
-TopMost CMake configuration
+**Top-Level CMake Configuration**
 
 ```txt
 CMakeLists.txt
 ```
 
-Future Documentation
+**Documentation**
 
 ```txt
 ./doc:
 ```
 
-Folder for installation
+**Installation Directory**
 
 ```txt
-./install: folder where you will find installed binaries
+./install: folder containing installed binaries
 ```
 
-License and this file you are reading
+**License and README**
 
 ```txt
 LICENCE
 README.md
 ```
 
-Test App
+**Test Application**
 
 ```txt
 ./TestApp:
 CMakeLists.txt  TestApp.cpp 
 ```
 
-Implemented Tests
+**Implemented Tests**
 
 ```txt
 ./TestApp/Tests:
@@ -97,4 +88,4 @@ Tests.cpp
 
 ---
 
-Copyright (c) 2024 Tomas Mark
+© 2024 Tomas Mark
