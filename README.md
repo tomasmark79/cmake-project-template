@@ -25,6 +25,11 @@ cd ../install/
 ls -la
 ```
 
+
+https://github.com/user-attachments/assets/6a7eb9d0-1ff1-42e9-84ad-33b65b1ad55f
+
+
+
 ## Project Template Structure
 
 **App**
