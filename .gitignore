@@ -1,0 +1,4 @@
+/build/*
+/install/bin/*
+/install/lib/*
+/install/include/*
