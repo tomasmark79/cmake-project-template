@@ -41,5 +41,5 @@ target_link_libraries(
 # Add the test
 add_test(NAME cmake-project-tests COMMAND cmake-project-tests)
 
-# check me - we can install the test too
-install(TARGETS cmake-project-tests DESTINATION ${THIS_INSTALL_BIN_DIR})
+# Uncheck if you need to install the test
+# install(TARGETS cmake-project-tests DESTINATION ${THIS_INSTALL_BIN_DIR})
