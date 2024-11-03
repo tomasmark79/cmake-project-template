@@ -44,5 +44,5 @@ target_link_libraries(
 # Add the test
 add_test(NAME project_tests COMMAND project_tests)
 
-# install tests
-# install(TARGETS project_tests DESTINATION ${THIS_INSTALL_BIN_DIR})
+# check me - we can install the test too
+install(TARGETS project_tests DESTINATION ${THIS_INSTALL_BIN_DIR})
