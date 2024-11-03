@@ -1,4 +1,4 @@
-#include "ModuleHelloWorld.hpp"
+#include "HelloWorld.hpp"
 
 #include <iostream>
 

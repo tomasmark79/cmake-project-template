@@ -1,22 +1,22 @@
 cmake_minimum_required(VERSION 3.28)
 
-# Set the project name
-project(project C CXX)
+# set the Application name
+project(cmake-project-application)
 
-# Add the library
+# add libraries
 add_subdirectory(FolderHelloWorld)
 
-# Add the executable
-set(SOURCE_FILES project.cpp)
+# add the executable
+set(SOURCE_FILES App.cpp)
 
-# Add the executable
-add_executable(project ${SOURCE_FILES})
+# add the executable
+add_executable(cmake-project-application ${SOURCE_FILES})
 
-# headers of modules
+# headers of libraries
 include_directories(${FOLDERHELLO_HEADERS_DIR})
 
-# Link the library
-target_link_libraries(project ModuleHelloWorld)
+# link libraries
+target_link_libraries(cmake-project-application ModuleHelloWorld)
 
-# Install the executable
-install(TARGETS project DESTINATION ${THIS_INSTALL_BIN_DIR})
+# install the executable
+install(TARGETS cmake-project-application DESTINATION ${THIS_INSTALL_BIN_DIR})

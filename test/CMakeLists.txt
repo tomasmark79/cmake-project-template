@@ -1,6 +1,5 @@
 cmake_minimum_required(VERSION 3.28)
-
-project(project_tests)
+project(cmake-project-tests)
 
 # Set policy CMP0135 to NEW
 if(POLICY CMP0135)
@@ -24,7 +23,7 @@ endif()
 set(SOURCE_FILES test.cpp src/project_tests.cpp)
 
 # add the executable
-add_executable(project_tests ${SOURCE_FILES})
+add_executable(cmake-project-tests ${SOURCE_FILES})
 
 # google header
 include_directories(${GTEST_INCLUDE_DIRS})
@@ -34,13 +33,13 @@ include_directories(${FOLDERHELLO_HEADERS_DIR})
 
 # link modules, ... and googletest
 target_link_libraries(
-    project_tests
+    cmake-project-tests
     gtest
     ModuleHelloWorld
 )
 
 # Add the test
-add_test(NAME project_tests COMMAND project_tests)
+add_test(NAME cmake-project-tests COMMAND cmake-project-tests)
 
 # check me - we can install the test too
-install(TARGETS project_tests DESTINATION ${THIS_INSTALL_BIN_DIR})
+install(TARGETS cmake-project-tests DESTINATION ${THIS_INSTALL_BIN_DIR})

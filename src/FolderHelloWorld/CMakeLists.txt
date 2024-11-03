@@ -1,19 +1,19 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.28)
 
-# Set the project name
-project(ModuleHelloWorld C CXX)
+# Set the Linbrary name
+project(HelloWorld)
 
 # Set the source files
 set(SOURCE_FILES
-    ModuleHelloWorld.hpp    
-    ModuleHelloWorld.cpp
+    HelloWorld.hpp    
+    HelloWorld.cpp
 )
 
 # Add the library as SHARED or STATIC 
-add_library(ModuleHelloWorld SHARED STATIC ${SOURCE_FILES})
+add_library(HelloWorld SHARED STATIC ${SOURCE_FILES})
 
 # Install the library
-install(TARGETS ModuleHelloWorld DESTINATION ${THIS_INSTALL_LIB_DIR})
+install(TARGETS HelloWorld DESTINATION ${THIS_INSTALL_LIB_DIR})
 
 # Install the header files
-install(FILES ModuleHelloWorld.hpp DESTINATION ${THIS_INSTALL_INCLUDE_DIR})
+install(FILES HelloWorld.hpp DESTINATION ${THIS_INSTALL_INCLUDE_DIR})

@@ -1,4 +1,4 @@
-#include "project.hpp"
+#include "App.hpp"
 
 #include "ModuleHelloWorld.hpp"
 
