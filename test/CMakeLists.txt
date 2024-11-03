@@ -20,8 +20,6 @@ if(NOT GTest_FOUND)
     
 endif()
 
-#add_subdirectory(lib/googletest)
-
 # add the source files
 set(SOURCE_FILES test.cpp src/project_tests.cpp)
 
@@ -46,5 +44,5 @@ target_link_libraries(
 # Add the test
 add_test(NAME project_tests COMMAND project_tests)
 
-# install the executable
-install(TARGETS project_tests DESTINATION ${THIS_INSTALL_BIN_DIR})
+# install tests
+# install(TARGETS project_tests DESTINATION ${THIS_INSTALL_BIN_DIR})
