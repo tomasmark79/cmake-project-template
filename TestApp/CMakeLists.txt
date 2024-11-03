@@ -42,4 +42,4 @@ target_link_libraries(
 add_test(NAME cmake-project-tests COMMAND cmake-project-tests)
 
 # Uncheck if you need to install the test
-# install(TARGETS cmake-project-tests DESTINATION ${THIS_INSTALL_BIN_DIR})
+install(TARGETS cmake-project-tests DESTINATION ${THIS_INSTALL_BIN_DIR})
