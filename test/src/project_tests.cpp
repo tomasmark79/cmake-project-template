@@ -15,5 +15,5 @@ TEST_F(HelloWorldTest, HelloWorld)
     testing::internal::CaptureStdout();
     hw.sayHello();
     std::string output = testing::internal::GetCapturedStdout();
-    EXPECT_EQ(output, "Hello, World!\n");
+    EXPECT_EQ(output, "Hello World!\n");
 }
