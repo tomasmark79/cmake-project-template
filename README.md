@@ -34,7 +34,7 @@ cd ../install/
 ls -la
 ```
 
-## structure of project
+## structure of project template
 
 App
 
