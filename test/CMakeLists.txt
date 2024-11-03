@@ -20,7 +20,7 @@ if(NOT GTest_FOUND)
 endif()
 
 # add the source files
-set(SOURCE_FILES test.cpp src/project_tests.cpp)
+set(SOURCE_FILES TestApp.cpp src/Tests.cpp)
 
 # add the executable
 add_executable(cmake-project-tests ${SOURCE_FILES})
@@ -28,14 +28,14 @@ add_executable(cmake-project-tests ${SOURCE_FILES})
 # google header
 include_directories(${GTEST_INCLUDE_DIRS})
 
-# module headers
+# libraries headers
 include_directories(${FOLDERHELLO_HEADERS_DIR})
 
 # link modules, ... and googletest
 target_link_libraries(
     cmake-project-tests
     gtest
-    ModuleHelloWorld
+    HelloWorld
 )
 
 # Add the test

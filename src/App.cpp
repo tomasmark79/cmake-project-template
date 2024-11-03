@@ -1,6 +1,6 @@
 #include "App.hpp"
 
-#include "ModuleHelloWorld.hpp"
+#include "HelloWorld.hpp"
 
 #include <iostream>
 

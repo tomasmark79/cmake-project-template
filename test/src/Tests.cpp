@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "ModuleHelloWorld.hpp"
+#include "HelloWorld.hpp"
 
 class HelloWorldTest : public ::testing::Test
 {

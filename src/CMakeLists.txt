@@ -16,7 +16,7 @@ add_executable(cmake-project-application ${SOURCE_FILES})
 include_directories(${FOLDERHELLO_HEADERS_DIR})
 
 # link libraries
-target_link_libraries(cmake-project-application ModuleHelloWorld)
+target_link_libraries(cmake-project-application HelloWorld)
 
 # install the executable
 install(TARGETS cmake-project-application DESTINATION ${THIS_INSTALL_BIN_DIR})
