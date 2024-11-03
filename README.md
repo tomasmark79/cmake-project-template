@@ -5,8 +5,17 @@ This template project was inspired by a vast number of projects encountered in t
 
 ## dependencies
 
+```
+GTest is downloaded automaticaly via CMake FetchContent
+```
+
+```
+cmake
+```
+
+```
 git
-cmake >= 3.28
+```
 
 ## platform independent
 
