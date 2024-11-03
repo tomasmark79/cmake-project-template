@@ -1,19 +1,19 @@
 
 ## CMake C++ Project Template
 
-Copyright (c) 2024 Tomas Mark
-
 This template project was inspired by a vast number of projects encountered in the past. The goal is to keep it as simple as possible, using GTest.
 
 ## usage
 
 ```bash
-git clone https://github.com/tomasmark79/cmake-project-template/tree/main
+git clone https://github.com/tomasmark79/cmake-project-template.git
 cd cmake-project-template
 mkdir build
 cd build
 cmake ..
 make install
+cd ../install/
+ls -la
 ```
 
 ## structure of project
@@ -68,10 +68,15 @@ Test App
 ```txt
 ./TestApp:
 CMakeLists.txt  TestApp.cpp 
+```
 
-Implemented tests
+Implemented Tests
 
+```txt
 ./TestApp/Tests:
 Tests.cpp
 ```
 
+---
+
+Copyright (c) 2024 Tomas Mark
