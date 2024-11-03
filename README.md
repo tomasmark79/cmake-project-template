@@ -14,6 +14,9 @@ Created and tested on Linux, but it may work in other environments.
 
 ## Usage
 
+notice:
+    If you want to use VSCode IDE and you already used commands bellow to configure and compile project, just remove build folder and reconfigure your project via CMake extension in VSCode.
+
 ```bash
 git clone https://github.com/tomasmark79/cmake-project-template.git
 cd cmake-project-template
