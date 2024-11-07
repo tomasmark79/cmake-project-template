@@ -5,6 +5,7 @@ project(cmake-project-application)
 
 # add libraries
 add_subdirectory(FolderHelloWorld)
+add_subdirectory(FolderBlockChain)
 
 # add the executable
 set(SOURCE_FILES App.cpp)
@@ -14,9 +15,10 @@ add_executable(cmake-project-application ${SOURCE_FILES})
 
 # headers of libraries
 include_directories(${FOLDERHELLO_HEADERS_DIR})
+include_directories(${FOLDERBLOCKCHAIN_HEADERS_DIR})
 
 # link libraries
-target_link_libraries(cmake-project-application HelloWorld)
+target_link_libraries(cmake-project-application HelloWorld BlockChain)
 
 # install the executable
 install(TARGETS cmake-project-application DESTINATION ${THIS_INSTALL_BIN_DIR})
