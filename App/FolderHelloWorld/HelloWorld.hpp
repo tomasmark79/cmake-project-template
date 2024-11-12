@@ -1,14 +1,30 @@
-#ifndef __MODULEHELLOWORLD_H__
-#define __MODULEHELLOWORLD_H__
+#ifndef __HELLOWORLD_H__
+#define __HELLOWORLD_H__
 
-constexpr const char *ModuleHelloWorld()
+constexpr const char *HelloWorldContent()
 {
     return "Hello World!";
 }
 
-class HelloWorld {
+constexpr const char *MessageWorldContent()
+{
+    return "Message to World!";
+}
+
+constexpr const char *GoodByeWorldContent()
+{
+    return "Good Bye World!";
+}
+
+class HelloWorld
+{
 public:
-    void sayHello();
+    HelloWorld() = default;
+    ~HelloWorld() = default;
+
+    void sayHello(void);
+    void sayMessage(void);
+    void sayGoodBye(void);
 };
 
-#endif // __MODULEHELLOWORLD_H__
+#endif // __HELLOWORLD_H__

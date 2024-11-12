@@ -6,7 +6,6 @@ project(HelloWorld)
 
 # Set the source files
 set(SOURCE_FILES
-    HelloWorld.hpp    
     HelloWorld.cpp
 )
 

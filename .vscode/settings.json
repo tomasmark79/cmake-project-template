@@ -80,7 +80,9 @@
         "typeinfo": "cpp",
         "valarray": "cpp",
         "variant": "cpp",
-        "text_encoding": "cpp"
+        "text_encoding": "cpp",
+        "bitset": "cpp",
+        "regex": "cpp"
     },
     "C_Cpp.clang_format_fallbackStyle": ""
 }
