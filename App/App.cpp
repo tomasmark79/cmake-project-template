@@ -4,6 +4,8 @@
 
 #include "EmojiWrapper.hpp"
 
+#include "CrcGen.hpp"
+
 #include <iostream>
 
 int main(int argc, char *argv[], char *env[])
@@ -13,6 +15,7 @@ int main(int argc, char *argv[], char *env[])
     // Hello World
     HelloWorld hw;
     hw.sayHello();
+
 
     // Emoji wrapper
     // HOW TO USE EmojiWrapper
