@@ -1,6 +1,8 @@
 #ifndef __HELLOWORLD_H__
 #define __HELLOWORLD_H__
 
+// example class
+
 constexpr const char *HelloContent()
 {
     return "Hello World!";

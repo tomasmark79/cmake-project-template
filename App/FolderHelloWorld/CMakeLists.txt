@@ -7,6 +7,7 @@ project(HelloWorld)
 # Set the source files
 set(SOURCE_FILES
     HelloWorld.cpp
+    HelloWorld.hpp
 )
 
 # Add the library as SHARED or STATIC 

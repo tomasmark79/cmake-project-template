@@ -3,6 +3,8 @@
 #include <iostream>
 #include <string>
 
+// example class
+
 void HelloWorld::sayHello()
 {
     std::cout << HelloContent() << std::endl;
