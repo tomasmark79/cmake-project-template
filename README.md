@@ -6,6 +6,7 @@ This project template was inspired by various projects encountered in the past. 
 - main - this cmake template
 - blockchain - it is blockchain implementation with examples
 - emojitools - utf8 emoji tools implementation
+- crcgen - boost checksum generator implementation
 
 ## Dependencies
 
