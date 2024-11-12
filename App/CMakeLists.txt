@@ -18,9 +18,12 @@ add_executable(cmake-project-application ${SOURCE_FILES})
 # headers of libraries
 include_directories(${FOLDERHELLO_HEADERS_DIR})
 include_directories(${FOLDERBLOCKCHAIN_HEADERS_DIR})
+include_directories(${FOLDEREMOJITOOLS_HEADERS_DIR})
+include_directories(${FOLDERCRCGEN_HEADERS_DIR})
+
 
 # link libraries
-target_link_libraries(cmake-project-application HelloWorld BlockChain)
+target_link_libraries(cmake-project-application HelloWorld BlockChain EmojiTools CrcGen)
 
 # install the executable
 install(TARGETS cmake-project-application DESTINATION ${THIS_INSTALL_BIN_DIR})
