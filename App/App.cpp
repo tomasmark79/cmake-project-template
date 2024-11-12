@@ -2,6 +2,8 @@
 
 #include "HelloWorld.hpp"
 
+#include "CrcGen.hpp"
+
 #include <iostream>
 
 int main(int argc, char *argv[], char *env[])
@@ -10,6 +12,7 @@ int main(int argc, char *argv[], char *env[])
     
     HelloWorld hw;
     hw.sayHello();
+
 
     return 0;
 }
