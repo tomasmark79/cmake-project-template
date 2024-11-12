@@ -5,15 +5,15 @@
 
 void HelloWorld::sayHello()
 {
-    std::cout << HelloWorldContent() << std::endl;
+    std::cout << HelloContent() << std::endl;
 }
 
 void HelloWorld::sayMessage()
 {
-    std::cout << MessageWorldContent() << std::endl;
+    std::cout << MessageContent() << std::endl;
 }
 
 void HelloWorld::sayGoodBye()
 {
-    std::cout << GoodByeWorldContent() << std::endl;
+    std::cout << GoodByeContent() << std::endl;
 }

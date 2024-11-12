@@ -40,10 +40,10 @@ App::App(int argc, char **argv, int retValue)
             return;
         }
 
-        // go through the arguments
+        // go through all received arguments
         for (int argvIndex = 1; argvIndex < argc; ++argvIndex)
         {
-            if (argv[argvIndex][0] != '-')
+            if ( (argv[argvIndex][0] != '-') || (argv[argvIndex][1] != '-') )
             {
                 throw std::runtime_error("!");
             }
