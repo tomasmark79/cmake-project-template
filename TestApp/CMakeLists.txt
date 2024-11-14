@@ -28,10 +28,10 @@ set(SOURCE_FILES TestApp.cpp Tests/Tests.cpp)
 add_executable(cmake-project-tests ${SOURCE_FILES})
 
 # google header
-include_directories(${GTEST_INCLUDE_DIRS})
+target_include_directories(cmake-project-tests PUBLIC ${GTEST_INCLUDE_DIRS})
 
 # libraries headers
-include_directories(${FOLDERHELLO_HEADERS_DIR})
+target_include_directories(cmake-project-tests PUBLIC ${FOLDERHELLO_HEADERS_DIR})
 
 # link modules, ... and googletest
 target_link_libraries(
