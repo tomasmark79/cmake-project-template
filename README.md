@@ -1,3 +1,5 @@
+#deprecated
+
 ## CMake C++ Project Template
 
 This project template was inspired by various projects encountered in the past. The goal is to keep it as simple as possible while using GTest for testing.
