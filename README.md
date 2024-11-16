@@ -1,3 +1,5 @@
+# this cmake template is deprecated and replaced by https://github.com/tomasmark79/CppStarter
+
 # Emoji Tools 😉🪄🎯
 
 ```cpp
